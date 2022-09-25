@@ -33,7 +33,7 @@ function createTask(text) {
 
     let btnDelete = document.createElement("button");
     btnDelete.classList.add("delete");
-    btnDelete.innerHTML = `<img src="/img/backet.png" alt="delete basket">`;
+    btnDelete.innerHTML = `<img src="../img/backet.png" alt="delete basket">`;
     btnDelete.addEventListener("click", () => {
         btnDelete.parentElement.remove()
     });
