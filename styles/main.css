@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Caveat;
-    src: url("../fonts/Caveat/Caveat-VariableFont_wght.ttf");
+    src: url("/fonts/Caveat/Caveat-VariableFont_wght.ttf");
 }
 
 * {
@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url("../bg/bg1.jpg");
+    background-image: url("/bg/bg1.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     font-family: Caveat, 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
