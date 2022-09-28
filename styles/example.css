@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+    .todo-list {
+        width: 450px;
+        min-height: 650px;
+    }
+
+    button {
+        font-size: large;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #task-name-input {
+        width: 65%;
+        padding: 5px;
+
+    }
+}
+
+@media (max-width: 480px) {
+
+    .todo-list {
+        width: 350px;
+        min-height: 550px;
+    }
+
+    button {
+        height: 40px;
+
+    }
+
+    #task-name-input {
+        height: 40px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .task {
+        height: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title {
+        height: 30px;
+    }
+
+    .todo-list {
+        width: 250px;
+        min-height: 450px;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    input {
+        font-size: medium;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    button {
+
+        font-size: medium;
+        padding: 2px;
+
+    }
+}
